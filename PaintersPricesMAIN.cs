@@ -26,7 +26,7 @@ namespace PaintersPrices
 			double timeTakenForJob = Console.Read();
 			timeTakenForJob  = Console.Read();
 
-			Console.WriteLine("The cost of this job is "+Math.Abs((paintCanCoveragePerSquareMetre/100)*areaOfWall)*priceOf5lPaintCan);
+			Console.WriteLine("The cost of this job is "+Math.Abs((paintCanCoveragePerSquareMetre/100)*areaOfWall)*priceOf5lPaintCan); // calculates final cost
 		}
 	}
 }
